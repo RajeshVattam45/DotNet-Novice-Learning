@@ -171,8 +171,8 @@ class Program
         divisionObject.Division();
 
         // Create object to demonstrate the implementation of finally exception.
-        ExceptionWithFinallyHandler finallyExceptionObject = new ExceptionWithFinallyHandler();
-        finallyExceptionObject.FinallyMethod();
+        DemonstrateExceptionHandling finallyExceptionObject = new DemonstrateExceptionHandling();
+        finallyExceptionObject.DemonstrateContent();
 
         // Create object to demonstrate the implementation of custom exception handling.
         StringInputExceptionHandler checkInputTextObject = new StringInputExceptionHandler();

@@ -3,14 +3,14 @@
 namespace sample1.oops.ExceptionHandler
 {
     // Class to demonstrate exception handling with a finally block.
-    class ExceptionWithFinallyHandler
+    class DemonstrateExceptionHandling
     {
-        public void FinallyMethod()
+        public void DemonstrateContent()
         {
             try
             {
                 // int x = 100;
-                string x = "hlo";
+                string x = "hello";
                 if (x is int)
                 {
                     Console.WriteLine("Yes its int " + x);
