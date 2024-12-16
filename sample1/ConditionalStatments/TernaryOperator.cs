@@ -13,7 +13,6 @@ namespace sample1.ConditionalStatments
 
             // Print the result.
             Console.WriteLine(result);
-
         }
 
     }

@@ -2,7 +2,7 @@
 
 namespace sample1.arrays
 {
-    public class ArrayUtilities
+    class FruitsArrayUtilities
     {
         public void ArrayIterationMethod()
         {

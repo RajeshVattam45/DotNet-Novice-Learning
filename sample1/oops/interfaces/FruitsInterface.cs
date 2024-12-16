@@ -2,7 +2,9 @@
 
 namespace sample1.oops.interfaces
 {
-    // Interface defining fruit properties.
+    /// <summary>
+    /// Interface defining fruit properties.
+    /// </summary>
     interface FruitsInterface
     {
         void FruitName();
@@ -13,31 +15,28 @@ namespace sample1.oops.interfaces
     // Class implementing the FruitsInterface.
     class Apple : FruitsInterface
     {
-        // Implement FruitName method.
+        /// <summary>
+        /// Implement FruitName method.
+        /// </summary>
         public void FruitName()
         {
             Console.WriteLine("Apple");
         }
 
-        // Implement FruitDescription method.
+        /// <summary>
+        ///  Implement FruitDescription method.
+        /// </summary>
         public void FruitDescription()
         {
             Console.WriteLine("This is an apple.");
         }
 
-        // Implement FruitColor method.
+        /// <summary>
+        /// Implement FruitColor method.
+        /// </summary>
         public void FruitColor()
         {
             Console.WriteLine("Red");
         }
-
-        // Static method to create and use an Apple object.
-        //public static void CreateObject()
-        //{
-        //    Apple appleObject = new Apple();
-        //    appleObject.FruitName();
-        //    appleObject.FruitDescription();
-        //    appleObject.FruitColor();
-        //}
     }
 }

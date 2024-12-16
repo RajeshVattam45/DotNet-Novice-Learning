@@ -2,7 +2,7 @@
 
 namespace sample1.@string
 {
-    public class StringClass
+    public class StringContentClass
     {
         public void DisplayContent()
         {

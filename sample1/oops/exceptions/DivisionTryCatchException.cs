@@ -1,8 +1,11 @@
 ﻿using System;
 
-namespace sample1.oops.exceptions
+namespace sample1.oops.ExceptionHandler
 {
-    class TryCatchClass
+    /// <summary>
+    /// Class to handle division by zero and other exceptions using try/catch exception.
+    /// </summary>
+    class DivisionByZeroHandler
     {
         public void Division()
         {

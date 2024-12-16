@@ -1,8 +1,10 @@
 ﻿using System;
 
-namespace sample1.oops.abstraction
+namespace sample1.oops.AnimalAbstraction
 {
-    // Abstract class representing an animal.
+    /// <summary>
+    /// Abstract class defining the blueprint for animal behavior.
+    /// </summary>
     abstract class AnimalAbstractionClass
     {
         // Abstract method for the animal's name.
@@ -12,7 +14,9 @@ namespace sample1.oops.abstraction
         public abstract void MakeSound();
     }
 
-    // Derived class implementing abstract methods.
+    /// <summary>
+    /// Derived class implementing abstract methods.
+    /// </summary>
     class LionClass : AnimalAbstractionClass
     {
         // Implementation of AnimalName.
@@ -26,16 +30,11 @@ namespace sample1.oops.abstraction
         {
             Console.WriteLine("Sound");
         }
-
-        //public static void CreateObjectMethod()
-        //{
-        //    LionClass newObject = new LionClass();
-        //    newObject.AnimalName();
-        //    newObject.MakeSound();
-        //}
     }
 
-    // Derived class implementing abstract methods.
+    /// <summary>
+    /// Derived class implementing abstract methods.
+    /// </summary>
     class Tiger : AnimalAbstractionClass
     {
         // Implementation of AnimalName.
@@ -49,12 +48,5 @@ namespace sample1.oops.abstraction
         {
             Console.WriteLine("Sound2");
         }
-
-        //public static void CreateObjectMethod()
-        //{
-        //    Tiger newObject = new Tiger();
-        //    newObject.MakeSound();
-        //    newObject.AnimalName();
-        //}
     }
 }

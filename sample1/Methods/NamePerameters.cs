@@ -2,7 +2,7 @@
 
 namespace sample1.Methods
 {
-    class PerametersClass
+    class NamePerametersClass
     {
         // Frunction with optional perameters.
         public void DisplayMessage(string message = "Welcome to .net")
@@ -22,14 +22,5 @@ namespace sample1.Methods
             int sumOf = numbers.Sum();
             Console.WriteLine("Sum of " + sumOf);
         }
-
-        //public static void CreateObject()
-        //{
-        //    PerametersClass newObject = new PerametersClass();
-        //    newObject.DisplayMessage("Rajesh");
-
-        //    newObject.FunctionWithPerameters("Rajesh", 23);
-        //    newObject.PeramsFunction(1, 2, 3, 4);
-        //}
     }
 }

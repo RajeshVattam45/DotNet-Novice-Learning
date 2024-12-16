@@ -3,33 +3,35 @@ using System.ComponentModel.DataAnnotations;
 
 namespace sample1.oops.polymorphism
 {
-    class PolymorphismClass
+    // Base class demonstrating polymorphism with a virtual method.
+    class BaseClass
     {
-        public virtual void Display()
+        public virtual void DisplayContent()
         {
             Console.WriteLine("Hello .net");
         }
     }
 
-    class MyClass : PolymorphismClass
+    // Derived class overriding the Display method.
+    class MyClass : BaseClass
     {
-        public override void Display()
+        public override void DisplayContent()
         {
             Console.WriteLine("Hello from MyClass class");
         }
     }
 
-    class MyClassTwo : PolymorphismClass
+    class MyClassTwo : BaseClass
     {
-        public void Display()
+        public void DisplayContent()
         {
             Console.WriteLine("Hello from MyClassTwo class");
         }
     }
 
-    class MyClassThree : PolymorphismClass
+    class MyClassThree : BaseClass
     {
-        public void Display()
+        public void DisplayContent()
         {
             Console.WriteLine("hello from MyClassThree class");
         }

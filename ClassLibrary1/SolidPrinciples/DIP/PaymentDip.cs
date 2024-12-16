@@ -9,7 +9,7 @@ namespace ClassLibrary1.SolidPrinciples.DIP
     }
 
     // Low-level module 1.
-    public class CreditCardPayment : IPaymentMethod
+    public class CreditCardPayments : IPaymentMethod
     {
         public void ProcessPayment(decimal amount)
         {
@@ -27,11 +27,11 @@ namespace ClassLibrary1.SolidPrinciples.DIP
     }
 
     // High-level module.
-    public class PaymentProcessor
+    public class PaymentProcessors
     {
         public readonly IPaymentMethod _paymentMethod;
 
-        public PaymentProcessor(IPaymentMethod paymentMethod)
+        public PaymentProcessors(IPaymentMethod paymentMethod)
         {
             _paymentMethod = paymentMethod;
         }
@@ -47,13 +47,13 @@ namespace ClassLibrary1.SolidPrinciples.DIP
         public void CreateObjectMethod()
         {
             // Use Credit Card for payment
-            IPaymentMethod creditCard = new CreditCardPayment();
-            PaymentProcessor processor1 = new PaymentProcessor(creditCard);
+            IPaymentMethod creditCard = new CreditCardPayments();
+            PaymentProcessors processor1 = new PaymentProcessors(creditCard);
             processor1.MakePayment(100.00m);
 
             // Use PayPal for payment
             IPaymentMethod payPal = new PayPalPayment();
-            PaymentProcessor processor2 = new PaymentProcessor(payPal);
+            PaymentProcessors processor2 = new PaymentProcessors(payPal);
             processor2.MakePayment(200.00m);
         }
     }

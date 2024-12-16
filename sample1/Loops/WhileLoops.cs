@@ -3,9 +3,12 @@
 
 namespace sample1.Loops
 {
+    /// <summary>
+    /// Class to demonstract while, do while loops.
+    /// </summary>
     public class WhileLoopClass
     {
-        public void WhileLoopFunction()
+        public void IterateNumbersFunction()
         {
             int i = 0;
             while (i <= 10)
@@ -15,7 +18,7 @@ namespace sample1.Loops
             }
         }
 
-        public void DoWhileLoopFunction()
+        public void IterateFunction()
         {
             int i = 0;
             do

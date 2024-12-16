@@ -23,31 +23,28 @@ namespace sample1.oops.interfaces
     // Class implementing multiple interfaces.
     class AppleClass : FruitNameInterface, FruitColorInterface, FruitWightInterface
     {
-        // Implementation of FruitName method.
+        /// <summary>
+        /// Implementation of FruitName method.
+        /// </summary>
         public void FruitName()
         {
             Console.WriteLine("Mango");
         }
 
-        // Implementation of FruitColor method.
+        /// <summary>
+        /// Implementation of FruitColor method.
+        /// </summary>
         public void FruitColor()
         {
             Console.WriteLine("Red");
         }
 
-        // Implementation of FruitWight method.
+        /// <summary>
+        /// Implementation of FruitWight method.
+        /// </summary>
         public void FruitWight()
         {
             Console.WriteLine("100grm");
         }
-
-        // Static method to create and use an object.
-        //public static void CreateObjects()
-        //{
-        //    AppleClass mangoObject = new AppleClass();
-        //    mangoObject.FruitName();
-        //    mangoObject.FruitColor();
-        //    mangoObject.FruitWight();
-        //}
     }
 }

@@ -2,9 +2,9 @@
 
 namespace sample1.Methods
 {
-    public class ReturnValueMethodClass
+    public class ReturnValueClass
     {
-        public string MyMethod(string names)
+        public string ReturnFruitName(string names)
         {
             return "Fruit names is " + names;
         }

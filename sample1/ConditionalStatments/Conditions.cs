@@ -29,7 +29,7 @@ namespace sample1.ConditionalStatments
             {
                 Console.WriteLine("The num is: " + number);
             }
-            else if(number == 0)
+            else if (number == 0)
             {
                 Console.WriteLine("The number is: " + number);
             }

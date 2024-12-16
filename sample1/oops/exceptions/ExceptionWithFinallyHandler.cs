@@ -1,8 +1,9 @@
 ﻿using System;
 
-namespace sample1.oops.exceptions
+namespace sample1.oops.ExceptionHandler
 {
-    class FinallyExceptionClass
+    // Class to demonstrate exception handling with a finally block.
+    class ExceptionWithFinallyHandler
     {
         public void FinallyMethod()
         {

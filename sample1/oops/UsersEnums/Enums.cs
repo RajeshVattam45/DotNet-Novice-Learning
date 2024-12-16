@@ -2,7 +2,7 @@
 
 namespace sample1.oops.enums
 {
-    class EnumsClass
+    class EnumOperations
     {
         // Enum to define days of the week.
         enum Weeks
@@ -25,8 +25,10 @@ namespace sample1.oops.enums
             Customers
         }
 
-        // Method to display a specific day from the Weeks enum.
-        public void DisplayWeek()
+        /// <summary>
+        /// Method to display a specific day from the Weeks enum.
+        /// </summary>
+        public void DisplaySelectedDay()
         {
             // Creating an object of the Weeks enum and setting it to Saturday.
             Weeks weeksObject = Weeks.Saturday;
@@ -35,8 +37,11 @@ namespace sample1.oops.enums
             Console.WriteLine($"Selected Day: {weeksObject}");
         }
 
-        // Method to display messages based on CustometType enum values.
-        public void GetEnumsValues(CustomerType type)
+        /// <summary>
+        /// Method to display messages based on CustometType enum values.
+        /// </summary>
+        /// <param name="type"></param>
+        public void GetUserValues(CustomerType type)
         {
             // Switch statement to handle enum values.
             switch (type)

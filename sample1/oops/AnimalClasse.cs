@@ -15,6 +15,7 @@ namespace sample1.oops
             AnimalWeight = Weight;
         }
 
+        // Display animal data.
         public void DisplayAnimal()
         {
             Console.WriteLine(AnimalName + " " + AnimalColor + " " + AnimalWeight);

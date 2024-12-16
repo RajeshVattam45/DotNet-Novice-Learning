@@ -2,10 +2,13 @@
 
 namespace sample1.Loops
 {
-    public class ForLoopClass
+    // Class for implementing loops.
+    class NumbersClass
     {
-        // Create function to iterate the array using for loop.
-        public void ForLoopFunction()
+        /// <summary>
+        /// Create function to iterate the array using for loop.
+        /// </summary>
+        public void IterateNumbers()
         {
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             for (int i = 0; i < numbers.Length; i++)
@@ -15,7 +18,9 @@ namespace sample1.Loops
             }
         }
 
-        // Create function for the 'for loop'.
+        /// <summary>
+        /// Create function for the 'for loop'.
+        /// </summary>
         public void AutoIncrementFunction()
         {
             int n = 10;

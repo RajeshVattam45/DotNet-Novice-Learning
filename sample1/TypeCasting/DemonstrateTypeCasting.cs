@@ -2,25 +2,31 @@
 
 namespace sample1.TypeCasting
 {
-    class TypeCastingClass
+    // Class to demonstrate typecasting.
+    class DemonstrateTypeCasting
     {
-        // Implicit Casting (automatically) - converting a smaller type to a larger type size.
-        public void ImplicitCasting()
+        /// <summary>
+        /// Implicit Casting - automatically converting a smaller type to a larger type size.
+        /// </summary>
+        public void DemonstrateImplicitCasting()
         {
             // variable having integer smaller type.
             int myNumber = 10;
+
             // Automatically convert smaller type to larger type.
             double myDouble = myNumber;
             Console.WriteLine(myNumber);
 
             // variable with smaller type.
             char charactor = 'a';
+
             // converted to larger type (string).
             string myCharactor = charactor.ToString();
             Console.WriteLine(myCharactor);
 
             // smaller type.
             byte smallNumber = 255;
+
             // implicit conversion.
             int largeNumber = smallNumber;
             Console.WriteLine(largeNumber);
@@ -39,7 +45,10 @@ namespace sample1.TypeCasting
 
         }
 
-        public void ExplicitCasting()
+        /// <summary>
+        /// Method to demonstrate explicit typecasting.
+        /// </summary>
+        public void DemonstrateExplicitCasting()
         {
             // Explicitly converting a double to an int.
             double pi = 3.14;

@@ -1,26 +1,33 @@
 ﻿using System;
 
-namespace sample1.oops.AccessModifiers
+namespace sample1.oops.StringAccessModifiers
 {
-    class AccessModifiersClass
+    // Class to represent Access modifiers.
+    class StringLiteratures
     {
         public string FruitName = "Apple";
         private string FruitColor = "Red";
         protected string FruitWeight = "100grm";
 
-        // When you try to access public property then it will be accessble.
+        /// <summary>
+        /// When you try to access public property then it will be accessble.
+        /// </summary>
         public void DisplayFruitName()
         {
             Console.WriteLine(FruitName);
         }
 
-        // When you try to get public it will b eaccessble.
+        /// <summary>
+        ///  When you try to get public it will b eaccessble.
+        /// </summary>
         public void DisplayFruitColor()
         {
             Console.WriteLine(FruitColor);
         }
 
-        // When you try to access protected property will get an error.
+        /// <summary>
+        /// When you try to access protected property will get an error.
+        /// </summary>
         protected void DisplayFruitWeight()
         {
             Console.WriteLine(FruitWeight);
