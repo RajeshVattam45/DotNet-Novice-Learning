@@ -249,7 +249,7 @@ class Program
 
         // Creating object to demonstrate the implementation of programmiing.
         CountNumbers countNumbers = new CountNumbers();
-        countNumbers.CountDigitsMethod();
+        countNumbers.ArmstrongNumbers();
         countNumbers.SumOfNumbers();
 
         RecursiveOperations recursiveOperations = new RecursiveOperations();

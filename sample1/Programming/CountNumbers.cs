@@ -4,7 +4,7 @@ namespace ConsoleApplication.Programming
 {
     class CountNumbers
     {
-        public void CountDigitsMethod()
+        public void ArmstrongNumbers()
         {
             Console.Write("Enter number: ");
             int number = int.Parse(Console.ReadLine());
