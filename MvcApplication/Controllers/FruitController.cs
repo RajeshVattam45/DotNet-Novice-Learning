@@ -6,7 +6,7 @@ namespace MvcApplication.Controllers
     [Route("Fruits")]
     public class FruitController : Controller
     {
-        public object Index()
+        public IActionResult Index()
         {
             var fruits = new List<Fruit>
             {
