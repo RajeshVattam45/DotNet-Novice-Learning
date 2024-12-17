@@ -1,0 +1,24 @@
+﻿@model List<MvcApplication.Models.Fruit>
+
+<h1>Fruit List</h1>
+
+<table border="1" cellpadding="5">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Model is now a List<Fruit> -->
+        @foreach (var fruit in Model)
+        {
+            <tr>
+                <td>@fruit.Id</td>
+                <td>@fruit.Name</td>
+                <td>@fruit.Color</td>
+            </tr>
+        }
+    </tbody>
+</table>
