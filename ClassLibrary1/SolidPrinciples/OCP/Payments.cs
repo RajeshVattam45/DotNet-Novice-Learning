@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1.SolidPrincipals.OCP
+namespace ClassLibrary.SolidPrincipals.OCP
 {
     // Abstract base class representing a generic payment method.
     public abstract class MyPayment

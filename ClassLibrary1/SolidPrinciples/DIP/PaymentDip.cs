@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1.SolidPrinciples.DIP
+namespace ClassLibrary.SolidPrinciples.DIP
 {
     // Abstraction.
     public interface IPaymentMethod

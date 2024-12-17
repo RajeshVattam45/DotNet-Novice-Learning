@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1.SolidPrincipals.SRP
+namespace ClassLibrary.SolidPrincipals.SRP
 {
     // Class responsible for holding and displaying student details.
     public class StudentsDetailsClass

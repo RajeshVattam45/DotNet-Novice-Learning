@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1.SolidPrincipals.LSP
+namespace ClassLibrary.SolidPrincipals.LSP
 {
     // Abstract base class defining common properties and methods for all animals.
     public abstract class AnimalsClass

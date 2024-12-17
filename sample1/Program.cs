@@ -14,12 +14,12 @@ using sample1.oops.ExceptionHandler;
 using sample1.oops.StudentEncapsulations;
 using sample1.oops.polymorphism;
 using sample1.TypeCasting;
-using ClassLibrary1.SolidPrincipals.SRP;
-using ClassLibrary1.SolidPrincipals.OCP;
-using ClassLibrary1.SolidPrincipals.LSP;
-using ClassLibrary1.SolidPrincipals.ISP;
+using ClassLibrary.SolidPrincipals.SRP;
+using ClassLibrary.SolidPrincipals.OCP;
+using ClassLibrary.SolidPrincipals.LSP;
+using ClassLibrary.SolidPrincipals.ISP;
 using sample1.Variables;
-using ClassLibrary1.SolidPrinciples.DIP;
+using ClassLibrary.SolidPrinciples.DIP;
 
 class Program
 {

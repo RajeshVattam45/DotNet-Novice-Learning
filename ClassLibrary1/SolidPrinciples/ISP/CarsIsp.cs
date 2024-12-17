@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1.SolidPrincipals.ISP
+namespace ClassLibrary.SolidPrincipals.ISP
 {
     // Interface for general car properties.
     public interface CarsClass
