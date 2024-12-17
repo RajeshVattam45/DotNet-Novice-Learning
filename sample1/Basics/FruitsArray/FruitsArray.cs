@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.arrays
+namespace ConsoleApplication.Basics.FruitsArray
 {
     class FruitsArrayUtilities
     {

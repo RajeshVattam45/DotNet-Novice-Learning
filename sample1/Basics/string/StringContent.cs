@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.@string
+namespace ConsoleApplication.Basics.@string
 {
     public class StringContentClass
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.TypeCasting
+namespace ConsoleApplication.Basics.TypeCasting
 {
     // Class to demonstrate typecasting.
     class DemonstrateTypeCasting

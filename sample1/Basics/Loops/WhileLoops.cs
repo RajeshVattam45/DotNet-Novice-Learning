@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace sample1.Loops
+namespace ConsoleApplication.Basics.Loops
 {
     /// <summary>
     /// Class to demonstract while, do while loops.

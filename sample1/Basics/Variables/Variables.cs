@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.Variables
+namespace ConsoleApplication.Basics.Variables
 {
     /// <summary>
     /// Declearing class to describe variables.

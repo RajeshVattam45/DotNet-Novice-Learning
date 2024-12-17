@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.ConditionalStatments
+namespace ConsoleApplication.Basics.ConditionalStatments
 {
     public class ConditionalExamples
     {

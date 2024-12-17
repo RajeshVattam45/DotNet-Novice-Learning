@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.Methods
+namespace ConsoleApplication.Basics.Methods
 {
     public class ReturnValueClass
     {

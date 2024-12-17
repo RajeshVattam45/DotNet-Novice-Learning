@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.Loops
+namespace ConsoleApplication.Basics.Loops
 {
     // Class for implementing loops.
     class NumbersClass
@@ -24,7 +24,7 @@ namespace sample1.Loops
         public void AutoIncrementFunction()
         {
             int n = 10;
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(i);
             }

@@ -6,7 +6,7 @@ namespace ConsoleApplication.Programming
     {
         public void CountDigitsMethod()
         {
-            Console.Write("Enter line: ");
+            Console.Write("Enter number: ");
             int number = int.Parse(Console.ReadLine());
             int count = number.ToString().Length;
             int duplicateNumber = number;

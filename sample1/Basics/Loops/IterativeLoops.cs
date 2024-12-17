@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sample1.Loops
+namespace ConsoleApplication.Basics.Loops
 {
     public class IterativeLoops
     {
