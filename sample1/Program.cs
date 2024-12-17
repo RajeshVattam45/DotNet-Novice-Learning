@@ -26,7 +26,7 @@ class Program
 {
     static void Main()
     {
-        // Creating object to demonstrate the implementation of variables. 
+        // Creating an object to demonstrate the implementation of variables. 
         Variables variableObject = new Variables();
         variableObject.Integer();
         variableObject.DeclearString();
